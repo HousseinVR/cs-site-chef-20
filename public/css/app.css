@@ -209,6 +209,13 @@ h2, .h2 {
   border-right-color: #b02939;
 }
 
+a i {
+  color: lightgrey;
+}
+a i:hover {
+  color: #C42D40;
+}
+
 .team {
   background: url("../images/team_background.jpg"), rgba(255, 255, 255, 0.15);
 }
@@ -228,6 +235,10 @@ h2, .h2 {
 .HR {
   border-bottom: solid 1px;
   border-bottom-color: gray;
+}
+
+.rose {
+  color: red;
 }
 
 .card {
