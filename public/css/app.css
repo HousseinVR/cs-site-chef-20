@@ -93,6 +93,13 @@ h2, .h2 {
   height: 15px;
 }
 
+a i {
+  color: lightgrey;
+}
+a i:hover {
+  color: #D8374D;
+}
+
 .fond2 {
   background-image: url("../images/main_bg.jpg");
 }
@@ -209,13 +216,6 @@ h2, .h2 {
   border-right-color: #b02939;
 }
 
-a i {
-  color: lightgrey;
-}
-a i:hover {
-  color: #C42D40;
-}
-
 .team {
   background: url("../images/team_background.jpg"), rgba(255, 255, 255, 0.15);
 }
@@ -238,7 +238,7 @@ a i:hover {
 }
 
 .rose {
-  color: red;
+  color: #D8374D;
 }
 
 .card {
@@ -276,7 +276,7 @@ a i:hover {
 }
 
 .know {
-  border-radius: 25rem !important;
+  border-radius: 25px !important;
   padding: 0.5rem 1rem !important;
   font-size: 1.25rem !important;
   line-height: 1.5 !important;
